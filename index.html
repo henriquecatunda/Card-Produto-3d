@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box" >
+            <h2 class="name">Salada provençal</h2>
+            <img src="Assets/estrela.png" class="estrela">
+                <div class="box-compra">
+                    <h2 class="preco">R$ 25,00</h2>
+                    <div class="compra">  <img src="Assets/shopping.png" class="compra-img" > </div>    
+                </div>
+
+            <div class="circle"></div>
+            <img src="Assets/salad.png" class="product">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <h2 class="name">Sushis de Salmão</h2>
+            <img src="Assets/estrela.png" class="estrela">
+                <div class="box-compra">
+                    <h2 class="preco">R$ 25,00</h2>
+                    <div class="compra">  <img src="Assets/shopping.png" class="compra-img" > </div>    
+                </div>
+            <div class="circle"></div>
+            <img src="Assets/sushi 2.png" class="product">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <h2 class="name">Sushis de Salmão</h2>
+            <img src="Assets/estrela.png" class="estrela">
+                <div class="box-compra">
+                    <h2 class="preco">R$ 25,00</h2>
+                    <div class="compra">  <img src="Assets/shopping.png" class="compra-img" > </div>    
+                </div>
+            <div class="circle"></div>
+            <img src="Assets/sushi.png" class="product">
+        </div>
+    </div>
+
+    <script src="vanilla-tilt.min.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+		max: 25,
+        speed: 400,
+        glare: true,
+        maxGlare: .5
+        
+    });
+
+    </script>
+</body>
+</html>
